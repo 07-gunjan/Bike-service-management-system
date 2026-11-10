@@ -14,7 +14,7 @@ using namespace std;
 
 const string FILE_NAME = "service_records.txt";
 
-// ---------- Helper Functions ----------
+
 
 string cleanInput(string text) {
     replace(text.begin(), text.end(), '|', '/');
